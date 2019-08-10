@@ -8,6 +8,7 @@ import Login from '../Containers/Login'
 
 import { Colors } from '@Themes'
 const DrawerStack = createDrawerNavigator({
+  TempScreen: { screen: Login }
 }, {
   drawerWidth: 300,
   contentComponent: (props) => {
