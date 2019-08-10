@@ -82,7 +82,7 @@ const Text = ({children, preset, style, ...rest}) => {
 }
 
 Text.propTypes = {
-  preset: PropTypes.oneOf(...Preset)
+  preset: PropTypes.oneOf(...Object.keys(Preset))
 }
 
 export default Text
